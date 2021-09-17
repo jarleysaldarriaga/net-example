@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarle\\Desktop\\estudio\\software development\\CICLO #3\\.NET CORE\\Hospitalizacion\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {}
+    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarle\\Desktop\\estudio\\software development\\CICLO #3\\.NET CORE\\Hospitalizacion\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarle\\Desktop\\estudio\\software development\\CICLO #3\\.NET CORE\\Hospitalizacion\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
         "projectName": "HospiEnCasa.App.Dominio",
-        "projectPath": "C:\\Users\\jarle\\Desktop\\estudio\\software development\\CICLO #3\\.NET CORE\\Hospitalizacion\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\jarle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarle\\Desktop\\estudio\\software development\\CICLO #3\\.NET CORE\\Hospitalizacion\\HospiEnCasa.App.Dominio\\obj\\",
+        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\misiontic\\.nuget\\packages\\",
+        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jarle\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\misiontic\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -53,7 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.117\\RuntimeIdentifierGraph.json"
         }
       }
     }
