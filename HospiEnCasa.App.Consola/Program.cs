@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System.Collections.Generic;
+using System;
 using HospiEnCasa.App.Dominio;
 using HospiEnCasa.App.Persistencia;
 
@@ -9,17 +11,63 @@ namespace HospiEnCasa.App.Consola
         private static IRepositorioPaciente _repoPaciente = new RepositorioPaciente(new Persistencia.AppContext());
         private static IRepositorioMedico _repoMedico = new RepositorioMedico(new Persistencia.AppContext());
         private static IRepositorioEnfermera _repoEnfermera = new RepositorioEnfermera(new Persistencia.AppContext());
+        private static IRepositorioFamiliarDesignado _repoFamiliar = new RepositorioFamiliarDesignado(new Persistencia.AppContext());
+
+        private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
+
+        private static IRepositorioSugerenciaCuidado  _repoSugerencia = new RepositorioSugerenciaCuidado(new Persistencia.AppContext());
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Entity FrameWork!");
+            Console.WriteLine("Bienvenido a la consola se esta ejecutando las pruebas");
             //AddPaciente();
             //BuscarPaciente(1);
             //AddMedico();
             //BuscarMedico();
-            AddEnfermera();
+            //AddEnfermera();
+            //AddFamiliar();
+            //AddSugerencia();
+            //AddHistoria();
         }
 
-        private static void AddEnfermera()
+    
+
+        /*private static void AddSugerencia(){
+            var sugerencia = new SugerenciaCuidado{
+                FechaHora = new DateTime(10/03/1999),
+                Descripcion = "Tomar Loratadina de mk de 10 ml, evitar tocar los lugares donde tenga os zarpullidos"
+            };
+            _repoSugerencia.AddSugerencia(sugerencia);
+            /*var sugerencia1 = new SugerenciaCuidado{
+                FechaHora = new DateTime(15/08/1999),
+                Descripcion = "Tomar cloracepan de 200 ml"
+            };
+            _repoSugerencia.AddSugerencia(sugerencia1);
+        }*/
+
+        /*private static void AddHistoria()
+        {
+            var historia = new Historia{
+                Diagnostico = "Paciente que sufre de problemas del corazon",
+                Entorno = "Corazon",
+                Sugerencias = new List<SugerenciaCuidado>()//Add(AddSugerencia())
+            };
+            _repoHistoria.AddHistoria(historia);
+        }*/
+
+        /*private static void AddFamiliar()
+        {
+            var familiar = new FamiliarDesignado{
+                Nombre = "andres",
+                Apellidos = "aguero",
+                NumeroTelefono = "3266599781",
+                Genero = Genero.Masculino,
+                Parentesco = "Tio",
+                Correo = "andres123@gmail.com"
+            };
+            _repoFamiliar.AddFamiliar(familiar);
+        }*/
+
+        /*private static void AddEnfermera()
         {
             var enfermera = new Enfermera{
                 Nombre = "Camila",
@@ -30,7 +78,7 @@ namespace HospiEnCasa.App.Consola
                 HorasLaborales = 8
             };
             _repoEnfermera.AddEnfermera(enfermera);
-        }
+        }*/
 
         /*private static void AddPaciente()
         {
